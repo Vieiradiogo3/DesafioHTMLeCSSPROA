@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#principal{
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+    width: 1380px;
+    height: 1000px;
+    background-color:black;
+}
+
+#titulo{
+    position: relative;
+    float: left;
+    background-color:306082;
+    width: 1380px;
+    height: 120px;
+
+    
+}
+
+
+
+h1{
+    color: white;
+    font-family:'comic sans', Times, serif;
+    text-align: center;
+    -webkit-text-stroke-width:1.5px;
+    -webkit-text-stroke-color: black;
+  
+    text-transform: uppercase;
+    transform: scale(1,1.6);
+    position: relative;
+    margin-top: 28px;
+    font-size: 50px;
+}
+
+
+#menu{
+    width: 1370px;
+    height: 70px;
+    padding: 5px;
+    position: relative;
+    float: left;
+    background-color:black;
+
+}
+
+
+
+#btn1,#btn2,#btn3,#btn4,#btn5{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+    width: 133px;
+    padding: 10px 5px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.5s;
+   
+  
+    
+}
+
+#btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover,#btn5:hover,#btn6:hover,#btn7:hover{
+    
+    color: white;
+    transition: 0.5;
+}
+
+
+#imagens{
+    position: relative;
+    float: left;
+    background-color: #353232;
+    width:  1320px;
+    height: 350px;
+    padding: 30px;
+}
+
+#image1, #image2, #image3{
+    height: 350px;
+    width: 425px;
+    position: relative;
+    transition: 0.5s;
+}
+
+#image1{
+    margin-right: 7.5px;
+}
+#image1{
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+#image3{
+    margin-left: 7.5px;
+}
+
+#image1:hover, #image2:hover, #image3:hover{
+    transition: 0.5s;
+    height: 262px;
+    width: 397.4px;
+}
+
+.fonteformat{
+    font-size: large;
+    color: rgb(235, 228, 228);
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 30px;
+}
+
+#text1{
+    position: relative;
+    float: left;
+    background-color: #454c4d;
+    width: 599px;
+    height: 380px;
+    padding: 20px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #f17f1a;
+}
+
+
+
+#down{
+    position: relative;
+    float: left;
+    background-color: #454C4D;
+    width:  1260px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 85px;
+    padding: 10px;
+    position: relative;
+    bottom: 75%;
+    left: 35%;
+    font-size: 10px;
+}
